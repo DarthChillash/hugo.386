@@ -612,8 +612,9 @@ a:focus {
   float: right;
 }
 
+/* Jerko tu je bilo 20pc odmak pa sam nulirao */
 .container {
-  margin-left: 20px;
+  margin-left: 0px;
   *zoom: 1;
 }
 

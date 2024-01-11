@@ -949,8 +949,8 @@
   }
 }
 
-/* Jerko: 979 je bilo u iducem redu pa sam smanji na 97 da mi se najgornji meni cijelo vrijeme prikazuje kao na desktopu */
-@media (max-width: 97px) {
+/* Jerko: 979 je bilo u iducem redu pa sam smanji na 350 da mi se najgornji meni cijelo vrijeme prikazuje kao na desktopu */
+@media (max-width: 350px) {
   body {
     padding-top: 0;
   }
