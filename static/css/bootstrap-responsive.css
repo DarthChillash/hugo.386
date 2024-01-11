@@ -949,7 +949,8 @@
   }
 }
 
-@media (max-width: 979px) {
+/* Jerko: 979 je bilo u iducem redu pa sam smanji na 97 da mi se najgornji meni cijelo vrijeme prikazuje kao na desktopu */
+@media (max-width: 97px) {
   body {
     padding-top: 0;
   }

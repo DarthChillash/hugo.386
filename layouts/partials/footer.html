@@ -4,11 +4,11 @@
         {{- partial "copyright.html" . -}}
     </p>
     <p class="text-center">
-        {{ with .Site.Params.facebook }}<a href="{{ . }}">Facebook</a> {{ end }}
-        {{ with .Site.Params.twitter }}<a href="{{ . }}">Twitter</a> {{ end }}
-        {{ with .Site.Params.linkedin }}<a href="{{ . }}">Linkedin</a> {{ end }}
-        {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a> {{ end }}
-        {{ with .Site.Params.gitlab }}<a href="{{ . }}">GitLab</a>{{ end }}
+        {{ with .Site.Params.mastodon }}<a href="{{ . }}">Mastodon</a> | {{ end }}
+        {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a> | {{ end }}
+        {{ with .Site.Params.youtube }}<a href="{{ . }}">YouTube</a> | {{ end }}
+	{{ with .Site.Params.kofi }}<a href="{{ . }}">Ko-fi</a> | {{ end }}
+	{{ with .Site.Params.twitch }}<a href="{{ . }}">Twitch</a> {{ end }}
     </p>
 </footer>
 
