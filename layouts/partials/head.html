@@ -10,7 +10,9 @@
     {{/* Don't ask why it's like this. This original theme is a mess... */}}
     <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
 
-<!-- komplet style je ubacen da muvam sajt na sredinu -->
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}index.xml">
+
+<!-- komplet style je ubacen da muvam sajt na sredinu a red iznad mi treba za RSS -->
 <style>
     body {
         display: flex;
